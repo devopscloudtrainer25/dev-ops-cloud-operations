@@ -1365,21 +1365,8 @@ To check logs of crontab:
 ---------------------------------
 journalctl /usr/sbin/crond | tail -n 1000
 
-[root@ip-172-31-30-70 ~]# journalctl /usr/sbin/crond | tail -n 1000
-May 16 04:37:30 ip-172-31-30-70.ec2.internal crond[1234]: (CRON) STARTUP (1.7.0)
-May 16 04:37:30 ip-172-31-30-70.ec2.internal crond[1234]: (CRON) INFO (Syslog will be used instead of sendmail.)
-May 16 04:37:30 ip-172-31-30-70.ec2.internal crond[1234]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 29% if used.)
-May 16 04:37:30 ip-172-31-30-70.ec2.internal crond[1234]: (CRON) INFO (running with inotify support)
-May 16 05:01:01 ip-172-31-30-70.ec2.internal CROND[1511]: (root) CMD (run-parts /etc/cron.hourly)
-May 16 05:25:01 ip-172-31-30-70.ec2.internal CROND[1793]: (root) CMD (yum update -y >> yum.out)
-May 16 05:25:01 ip-172-31-30-70.ec2.internal CROND[1794]: (root) CMD (ls -lrt /opt >> ls.out)
-May 16 05:25:01 ip-172-31-30-70.ec2.internal CROND[1772]: (root) CMDEND (ls -lrt /opt >> ls.out)
-May 16 05:26:01 ip-172-31-30-70.ec2.internal CROND[11854]: (root) CMD (ls -lrt /opt >> ls.out)
-May 16 05:26:02 ip-172-31-30-70.ec2.internal CROND[11852]: (root) CMDEND (ls -lrt /opt >> ls.out)
-May 16 05:26:07 ip-172-31-30-70.ec2.internal CROND[1771]: (root) CMDEND (yum update -y >> yum.out)
-[root@ip-172-31-30-70 ~]# 
-
-=====================================================================================================================
+# Work is To-Do state
+Automation is in progress
 
 
 
