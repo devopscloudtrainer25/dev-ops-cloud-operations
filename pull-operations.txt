@@ -1,0 +1,8 @@
+3. git pull: git pull is used for pulling the updated changes from remote GitHub branch to local git branch.
+
+
+   command: git pull origin branch_name
+            git pull -f origin --tags
+
+
+Note: git pull = git fetch + git merge
